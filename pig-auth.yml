@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: pig-auth
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: re3f45q3
+    url: jdbc:mysql://127.0.0.1:3306/pig?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 127.0.0.1
+    port: 6379

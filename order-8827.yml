@@ -17,7 +17,7 @@ spring:
 env:
   test15
 girl:
-  name: bbbb
+  name: dddd
   age: 17
 feign:
   client:

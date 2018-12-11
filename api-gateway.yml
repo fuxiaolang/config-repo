@@ -3,8 +3,8 @@ zuul:
   sensitive-headers: 
   routes:
   # /myProduct/product/list -> /product/product/list
-    aaaaaa:
-      path: /myProduct/**
+    myProduct: 
+      path: /pd/**
       serviceId: product
       sensitiveHeaders:
   #简洁写法
